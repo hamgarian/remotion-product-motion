@@ -1,0 +1,40 @@
+
+> remotion-product-motion@1.0.0 check
+> npm test && npm run typecheck
+
+
+> remotion-product-motion@1.0.0 test
+> node --test tests/*.test.mjs
+
+✔ progress clamps both sides and preserves fractional frames (0.6476ms)
+✔ timelines reject nonfinite values and zero or reversed durations (0.2061ms)
+✔ exponential easing has exact endpoints and symmetric in/out (0.2693ms)
+✔ exponential curves stay monotone for supported exponents (0.2979ms)
+✔ track holds endpoints and interpolates values (0.1729ms)
+✔ overlapping camera tracks are additive for pan, multiplicative for zoom (0.5459ms)
+✔ camera is deterministic under seeking and fractional sampling (0.1161ms)
+✔ camera rejects nonpositive zoom at any point (0.1032ms)
+✔ projection uses a viewport-centered camera; screen motion can cancel (0.205ms)
+✔ discrete selection cuts at the boundary, clamping pre-roll (0.1993ms)
+✔ discrete selection rejects empty, duplicate and unsorted cut lists (0.1264ms)
+✔ audible attack timing reports negative pre-roll instead of silently clamping (0.1212ms)
+✔ duck envelopes retain baseline outside windows and reach floor inside (0.1641ms)
+✔ overlapping duck windows choose the deepest gain instead of multiplying (0.6514ms)
+✔ large finite ranges preserve midpoints and exact track endpoints (0.1398ms)
+✔ computed overflow is rejected instead of escaping into CSS or audio scheduling (0.1304ms)
+✔ every local Markdown link points to a published file (38.6059ms)
+✔ social preview has the release dimensions and remains under one megabyte (18.8931ms)
+✔ release version matches changelog and all Remotion dependencies are pinned together (4.3181ms)
+✔ skill copies and executes without repository dependencies (21.5906ms)
+ℹ tests 20
+ℹ suites 0
+ℹ pass 20
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 212.322
+
+> remotion-product-motion@1.0.0 typecheck
+> tsc --noEmit
+

@@ -1,0 +1,116 @@
+{
+  "status": "PASS",
+  "checks": 6,
+  "motionChecks": 2,
+  "results": [
+    {
+      "backend": "canvas",
+      "frame": 29,
+      "control": [
+        255,
+        0,
+        0,
+        255
+      ],
+      "fixed": [
+        255,
+        0,
+        0,
+        255
+      ]
+    },
+    {
+      "backend": "canvas",
+      "frame": 30,
+      "control": [
+        128,
+        0,
+        128,
+        255
+      ],
+      "fixed": [
+        0,
+        0,
+        255,
+        255
+      ]
+    },
+    {
+      "backend": "canvas",
+      "frame": 31,
+      "control": [
+        0,
+        0,
+        255,
+        255
+      ],
+      "fixed": [
+        0,
+        0,
+        255,
+        255
+      ]
+    },
+    {
+      "backend": "fallback",
+      "frame": 29,
+      "control": [
+        255,
+        0,
+        0,
+        255
+      ],
+      "fixed": [
+        255,
+        0,
+        0,
+        255
+      ]
+    },
+    {
+      "backend": "fallback",
+      "frame": 30,
+      "control": [
+        0,
+        0,
+        255,
+        255
+      ],
+      "fixed": [
+        0,
+        0,
+        255,
+        255
+      ]
+    },
+    {
+      "backend": "fallback",
+      "frame": 31,
+      "control": [
+        0,
+        0,
+        255,
+        255
+      ],
+      "fixed": [
+        0,
+        0,
+        255,
+        255
+      ]
+    }
+  ],
+  "motionResults": [
+    {
+      "backend": "canvas",
+      "blurredPartialPixels": 16,
+      "unblurredPartialPixels": 0
+    },
+    {
+      "backend": "fallback",
+      "blurredPartialPixels": 18,
+      "unblurredPartialPixels": 0
+    }
+  ],
+  "elapsedSeconds": 27.3
+}
